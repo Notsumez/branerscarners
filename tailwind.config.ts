@@ -9,9 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'primary-bg': '#FBF1D1'
       },
+      maxWidth: {
+        grid: '77.5rem',
+      },
+      backgroundImage: {
+        'hero': "url('/bg-main.svg')"
+      }
     },
   },
   plugins: [],
